@@ -1,0 +1,20 @@
+server:
+  port: 5000
+  origin: 'your_frontend_url'
+
+db:
+  type: 'postgres'
+  host: 'postgresql'
+  database: 'task_management'
+  username: 'username'
+  password: 'password'
+  port: 5432
+  synchronize: true
+
+jwt:
+  expiresIn: 3600
+  secret: 'your_secret_key'
+
+rule:
+  max_user: 3
+  max_task: 10
