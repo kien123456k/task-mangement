@@ -51,6 +51,14 @@ yarn start
 yarn stop
 ```
 
+## Setup Pgadmin
+- Go to `localhost:16543` and login with `admin@admin.com` and `admin` as username and password respectively.
+- Click `Add New Server`
+- In General tab, enter name of the database server (this is just an abstract name so you can name it anyname you want).
+- In Connection tab, enter `postgresql`, `task_management`, `username` and `password` as host, database, username and password.
+- Leave all other fields as default value then click `Save`.
+=> That's all, you are connected to database in your local container. Try to explore with Pgadmin more and have fun. 
+
 ## Reference
 
 This application is configuration of [task-management-frontend](https://github.com/arielweinberger/task-management-frontend) of [Ariel Weinberger](https://github.com/arielweinberger).
