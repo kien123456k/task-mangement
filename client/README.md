@@ -11,7 +11,7 @@ yarn install
 yarn start
 ```
 
-Build for deploy
+## Build for deploy
 ```
 yarn build
 ```
